@@ -86,17 +86,17 @@ class Menu:
             if choice == '1':
                 self.logger.info("Viewing all history")
                 if self.ui:
-                    self.ui.view_all_history()
+                    self.ui.show_history('all')
             elif choice == '2':
                 car_num = input("Enter car number: ")
                 self.logger.info(f"Viewing history for car: {car_num}")
                 if self.ui:
-                    self.ui.view_history_by_car(car_num)
+                    self.ui.show_history('car',car_num)
             elif choice == '3':
                 part_name = input("Enter part name: ")
                 self.logger.info(f"Viewing history for part: {part_name}")
                 if self.ui:
-                    self.ui.view_history_by_part(part_name)
+                    self.ui.show_history('part',part_name)
             elif choice.lower() == 'b':
                 self.logger.info("Exiting history menu")
                 break

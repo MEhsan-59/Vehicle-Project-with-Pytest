@@ -89,6 +89,29 @@ class MaintenanceUI:
                   f"{d.next_changed_km:<7} | {Utility.format_date(d.changed_date):<12} | "
                   f"{Utility.format_date(d.next_changed_date):<12}")
 
+    def show_history(self, filter_type='all', value=''):
+        if filter_type == 'all':
+            history = self.maintenance_manager.get_history('all', '', self.active_user)
+        elif filter_type == 'car':
+            history = self.maintenance_manager.get_history('car', value, self.active_user)
+        elif filter_type == 'part':
+            history = self.maintenance_manager.get_history('part', value, self.active_user)
+        else:
+            history = []
+
+        if not history:
+            print("No history records found.")
+            return
+
+        print("\n" + "="*100)
+        print(f"{'Timestamp':<20} | {'Car No':<10} | {'Action':<15} | {'Part':<12} | {'KM':<8} | {'Date':<12}")
+        print("-"*100)
+        for h in history:
+            ts = Utility.format_timestamp(h.action_timestamp)
+            print(f"{ts:<20} | {h.car_no:<10} | {h.action_type:<15} | {h.part_name or '':<12} | "
+                  f"{h.changed_km or '':<8} | {Utility.format_date(h.changed_date):<12}")
+        print("="*100)
+
 class PartUI:
     def __init__(self, part_manager: PartManager):
         self.part_manager = part_manager

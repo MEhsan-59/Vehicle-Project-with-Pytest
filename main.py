@@ -4,6 +4,7 @@ from db_connection import DatabaseConnection
 from part_repository import PartRepository
 from car_repository import CarRepository
 from maintenance_repository import MaintenanceRepository
+from history_repository import HistoryRepository
 from service import MaintenanceService
 from logger_setup import setup_logger
 from part_manager import PartManager
@@ -27,6 +28,9 @@ def main():
 
             db = DatabaseConnection()
 
+            #History susystem
+            history_repo = HistoryRepository(db)
+
             # Part subsystem
             part_repo = PartRepository(db)
             part_manager = PartManager(part_repo)
@@ -39,7 +43,7 @@ def main():
 
             # Maintenance subsystem
             maintenance_repo = MaintenanceRepository(db)
-            maintenance_manager = MaintenanceManager(car_repo, maintenance_repo,part_manager)
+            maintenance_manager = MaintenanceManager(car_repo,maintenance_repo, part_manager, history_repo)
             maintenance_service = MaintenanceService(maintenance_manager)
             maintenance_ui = MaintenanceUI(maintenance_manager, maintenance_service, active_user)
 
