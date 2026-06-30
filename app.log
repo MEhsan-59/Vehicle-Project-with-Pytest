@@ -1,0 +1,9 @@
+2026-06-21 06:51:31,161 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-06-21 06:51:31,161 : __main__ : INFO : Program started
+2026-06-21 07:11:10,453 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-06-21 07:11:10,453 : __main__ : INFO : Program started
+2026-06-21 07:11:18,268 : __main__ : INFO : User Ihsan logged in
+2026-06-21 07:11:18,268 : menu : INFO : Menu system
+2026-06-21 07:11:18,268 : menu : INFO : Main menu started
+2026-06-21 07:11:26,624 : menu : INFO : User selected Part settings
+2026-06-21 07:11:32,008 : menu : INFO : User selected Add part
