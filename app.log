@@ -7,3 +7,116 @@
 2026-06-21 07:11:18,268 : menu : INFO : Main menu started
 2026-06-21 07:11:26,624 : menu : INFO : User selected Part settings
 2026-06-21 07:11:32,008 : menu : INFO : User selected Add part
+2026-07-01 11:54:37,163 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 11:54:37,167 : __main__ : INFO : Program started
+2026-07-01 11:54:37,190 : __main__ : INFO : User Ihsan logged in
+2026-07-01 11:54:37,194 : menu : INFO : Menu system
+2026-07-01 11:54:37,200 : menu : INFO : Main menu started
+2026-07-01 12:07:18,569 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 12:07:18,594 : __main__ : INFO : Program started
+2026-07-01 12:07:18,907 : __main__ : INFO : User Ihsan logged in
+2026-07-01 12:07:18,909 : menu : INFO : Menu system
+2026-07-01 12:07:18,911 : menu : INFO : Main menu started
+2026-07-01 14:10:12,452 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:10:12,473 : __main__ : INFO : Program started
+2026-07-01 14:10:16,096 : __main__ : INFO : User Ihsan logged in
+2026-07-01 14:10:16,098 : menu : INFO : Menu system
+2026-07-01 14:10:16,100 : menu : INFO : Main menu started
+2026-07-01 14:10:24,340 : menu : INFO : User selected Part settings
+2026-07-01 14:10:25,243 : menu : INFO : User selected Add part
+2026-07-01 14:10:26,779 : menu : INFO : User selected Add part
+2026-07-01 14:10:27,420 : menu : INFO : User selected Add part
+2026-07-01 14:10:28,488 : menu : INFO : User selected Add part
+2026-07-01 14:10:28,667 : menu : INFO : User selected Update part
+2026-07-01 14:10:29,487 : menu : INFO : User selected Update part
+2026-07-01 14:10:30,159 : menu : INFO : User selected Remove part
+2026-07-01 14:10:30,948 : menu : WARNING : Invalid config menu choice: 4
+2026-07-01 14:10:32,004 : menu : INFO : Exiting config menu
+2026-07-01 14:10:34,947 : menu : INFO : User selected History settings
+2026-07-01 14:10:35,866 : menu : INFO : Viewing all history
+2026-07-01 14:10:44,301 : menu : INFO : Viewing history for part: oil filter
+2026-07-01 14:10:49,331 : menu : INFO : Exiting history menu
+2026-07-01 14:10:51,629 : menu : INFO : User selected Part settings
+2026-07-01 14:10:52,792 : menu : INFO : User selected Add part
+2026-07-01 14:22:51,484 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:22:51,503 : __main__ : INFO : Program started
+2026-07-01 14:22:51,516 : __main__ : INFO : User Ihsan logged in
+2026-07-01 14:22:51,523 : menu : INFO : Menu system
+2026-07-01 14:22:51,523 : menu : INFO : Main menu started
+2026-07-01 14:23:03,394 : menu : INFO : User selected Part settings
+2026-07-01 14:23:04,040 : menu : INFO : User selected Add part
+2026-07-01 14:24:39,392 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:24:39,395 : __main__ : INFO : Program started
+2026-07-01 14:24:39,419 : __main__ : INFO : User Ihsan logged in
+2026-07-01 14:24:39,426 : menu : INFO : Menu system
+2026-07-01 14:24:39,435 : menu : INFO : Main menu started
+2026-07-01 14:24:43,387 : menu : INFO : User selected Part settings
+2026-07-01 14:24:43,957 : menu : INFO : User selected Add part
+2026-07-01 14:25:53,133 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:25:53,144 : __main__ : INFO : Program started
+2026-07-01 14:42:38,379 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:42:38,398 : __main__ : INFO : Program started
+2026-07-01 14:42:38,423 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 14:42:39,700 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 14:43:16,666 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:43:16,675 : __main__ : INFO : Program started
+2026-07-01 14:43:16,694 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 14:43:16,727 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 14:43:40,337 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:43:40,342 : __main__ : INFO : Program started
+2026-07-01 14:43:40,358 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 14:48:20,974 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:48:20,976 : __main__ : INFO : Program started
+2026-07-01 14:48:20,984 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 14:49:41,727 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:49:41,730 : __main__ : INFO : Program started
+2026-07-01 14:49:41,738 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 14:49:41,772 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 14:49:41,777 : __main__ : INFO : User Ihsan logged in
+2026-07-01 14:49:41,788 : menu : INFO : Menu system
+2026-07-01 14:49:41,791 : menu : INFO : Main menu started
+2026-07-01 14:49:45,015 : menu : INFO : User selected Part settings
+2026-07-01 14:49:45,535 : menu : INFO : User selected Add part
+2026-07-01 14:50:01,565 : part_manager : INFO : Part config updated: oil filter
+2026-07-01 14:50:58,812 : part_manager : INFO : Part config added: fuel filter
+2026-07-01 14:51:04,569 : menu : INFO : User selected Update part
+2026-07-01 14:51:30,991 : menu : INFO : User selected Remove part
+2026-07-01 14:53:23,164 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 14:53:23,166 : __main__ : INFO : Program started
+2026-07-01 14:53:23,177 : part_manager : INFO : Loaded 2 part configurations
+2026-07-01 14:53:23,234 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 14:53:23,240 : __main__ : INFO : User Ihsan logged in
+2026-07-01 14:53:23,242 : menu : INFO : Menu system
+2026-07-01 14:53:23,246 : menu : INFO : Main menu started
+2026-07-01 14:53:27,607 : menu : INFO : User selected Part settings
+2026-07-01 14:53:30,065 : menu : INFO : User selected Remove part
+2026-07-01 15:11:12,212 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 15:11:12,215 : __main__ : INFO : Program started
+2026-07-01 15:11:12,256 : part_manager : INFO : Loaded 2 part configurations
+2026-07-01 15:11:12,319 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 15:11:12,326 : __main__ : INFO : User Ihsan logged in
+2026-07-01 15:11:12,331 : menu : INFO : Menu system
+2026-07-01 15:11:12,335 : menu : INFO : Main menu started
+2026-07-01 15:13:09,339 : menu : INFO : User selected Part settings
+2026-07-01 15:13:09,739 : menu : INFO : User selected Add part
+2026-07-01 15:13:25,586 : menu : INFO : User selected Remove part
+2026-07-01 15:34:44,959 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 15:34:44,962 : __main__ : INFO : Program started
+2026-07-01 15:34:45,001 : part_manager : INFO : Loaded 2 part configurations
+2026-07-01 15:34:45,029 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 15:34:45,040 : __main__ : INFO : User Ihsan logged in
+2026-07-01 15:34:45,042 : menu : INFO : Menu system
+2026-07-01 15:34:45,049 : menu : INFO : Main menu started
+2026-07-01 15:35:14,919 : menu : INFO : User selected Part settings
+2026-07-01 15:35:15,798 : menu : INFO : User selected Remove part
+2026-07-01 15:35:34,978 : part_manager : INFO : Part config deleted: fuel filter
+2026-07-01 15:35:43,407 : menu : INFO : User selected Update part
+2026-07-01 15:39:33,797 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-01 15:39:33,799 : __main__ : INFO : Program started
+2026-07-01 15:39:33,807 : part_manager : INFO : Loaded 1 part configurations
+2026-07-01 15:39:33,827 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-07-01 15:39:33,833 : __main__ : INFO : User Ihsan logged in
+2026-07-01 15:39:33,837 : menu : INFO : Menu system
+2026-07-01 15:39:33,842 : menu : INFO : Main menu started
+2026-07-01 15:41:02,098 : menu : INFO : User selected Part settings
+2026-07-01 15:41:04,927 : menu : INFO : User selected Update part

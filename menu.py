@@ -52,15 +52,15 @@ class Menu:
             if choice == '1':
                 self.logger.info("User selected Add part")
                 if self.ui:
-                    self.ui.add_part()
+                    self.ui.add_part_config()
             elif choice == '2':
                 self.logger.info("User selected Update part")
                 if self.ui:
-                    self.ui.update_part()
+                    self.ui.add_part_config("Updated")
             elif choice == '3':
                 self.logger.info("User selected Remove part")
                 if self.ui:
-                    self.ui.remove_part()
+                    self.ui.remove_part_config()
             elif choice.lower() == 'b':
                 self.logger.info("Exiting config menu")
                 break
