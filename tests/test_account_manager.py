@@ -1,4 +1,4 @@
-from unittest.mock import MagicMock
+from unittest.mock import Mock
 from account_manager import AccountManager
 from account_model import Model
 import security
@@ -10,7 +10,7 @@ def make_fake_account(user_id="ahsan", raw_password="pass123"):
 
 
 def test_create_account_success():
-    repo = MagicMock()
+    repo = Mock()
     repo.check_account.return_value = None  # account abhi exist nahi karta
     manager = AccountManager(repo)
 
@@ -25,7 +25,7 @@ def test_create_account_success():
 
 
 def test_create_account_already_exists():
-    repo = MagicMock()
+    repo = Mock()
     repo.check_account.return_value = make_fake_account()
     manager = AccountManager(repo)
 
@@ -37,7 +37,7 @@ def test_create_account_already_exists():
 
 
 def test_login_account_success():
-    repo = MagicMock()
+    repo = Mock()
     fake_account = make_fake_account(raw_password="pass123")
     repo.check_account.return_value = fake_account
     manager = AccountManager(repo)
@@ -50,7 +50,7 @@ def test_login_account_success():
 
 
 def test_login_account_wrong_password():
-    repo = MagicMock()
+    repo = Mock()
     fake_account = make_fake_account(raw_password="pass123")
     repo.check_account.return_value = fake_account
     manager = AccountManager(repo)
@@ -63,7 +63,7 @@ def test_login_account_wrong_password():
 
 
 def test_login_account_does_not_exist():
-    repo = MagicMock()
+    repo = Mock()
     repo.check_account.return_value = None
     manager = AccountManager(repo)
 

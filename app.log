@@ -120,3 +120,61 @@
 2026-07-01 15:39:33,842 : menu : INFO : Main menu started
 2026-07-01 15:41:02,098 : menu : INFO : User selected Part settings
 2026-07-01 15:41:04,927 : menu : INFO : User selected Update part
+2026-04-16 00:16:43,005 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-04-16 00:16:43,006 : __main__ : INFO : Program started
+2026-04-16 00:16:43,022 : __main__ : INFO : User Ihsan logged in
+2026-04-16 00:16:43,034 : part_manager : INFO : Loaded 1 part configurations
+2026-04-16 00:16:43,046 : car_manager : INFO : Loaded 0 vehicles for user Ihsan
+2026-04-16 00:16:43,052 : menu : INFO : Menu system
+2026-04-16 00:16:43,055 : menu : INFO : Main menu started
+2026-04-16 00:17:12,234 : car_manager : INFO : Car added: 1122
+2026-04-16 00:17:12,238 : car_ui : INFO : User added car: 1122
+2026-04-16 01:02:10,065 : menu : INFO : User exiting application
+2026-04-16 01:02:10,087 : __main__ : INFO : User Ihsan logged in
+2026-04-16 01:02:10,099 : part_manager : INFO : Loaded 1 part configurations
+2026-04-16 01:02:10,111 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-04-16 01:02:10,115 : menu : INFO : Menu system
+2026-04-16 01:02:10,120 : menu : INFO : Main menu started
+2026-04-16 01:03:39,452 : menu : INFO : User exiting application
+2026-04-16 01:03:39,463 : __main__ : INFO : User Ihsan logged in
+2026-04-16 01:03:39,474 : part_manager : INFO : Loaded 1 part configurations
+2026-04-16 01:03:39,486 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-04-16 01:03:39,491 : menu : INFO : Menu system
+2026-04-16 01:03:39,498 : menu : INFO : Main menu started
+2026-04-16 01:03:40,468 : menu : INFO : User exiting application
+2026-04-16 01:03:40,480 : __main__ : INFO : User Ihsan logged in
+2026-04-16 01:03:40,490 : part_manager : INFO : Loaded 1 part configurations
+2026-04-16 01:03:40,500 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-04-16 01:03:40,506 : menu : INFO : Menu system
+2026-04-16 01:03:40,510 : menu : INFO : Main menu started
+2026-04-16 01:03:41,035 : menu : INFO : User exiting application
+2026-04-16 01:03:41,042 : __main__ : INFO : User Ihsan logged in
+2026-04-16 01:03:41,050 : part_manager : INFO : Loaded 1 part configurations
+2026-04-16 01:03:41,061 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-04-16 01:03:41,064 : menu : INFO : Menu system
+2026-04-16 01:03:41,074 : menu : INFO : Main menu started
+2026-07-04 16:20:46,118 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-04 16:20:46,180 : __main__ : INFO : Program started
+2026-07-04 16:20:46,279 : __main__ : INFO : User Ihsan logged in
+2026-07-04 16:20:46,303 : part_manager : INFO : Loaded 1 part configurations
+2026-07-04 16:20:46,332 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-07-04 16:20:46,336 : menu : INFO : Menu system
+2026-07-04 16:20:46,340 : menu : INFO : Main menu started
+2026-07-04 17:02:14,428 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-04 17:02:14,456 : __main__ : INFO : Program started
+2026-07-04 17:02:14,686 : __main__ : INFO : User Ihsan logged in
+2026-07-04 17:02:14,690 : part_manager : INFO : Loaded 1 part configurations
+2026-07-04 17:02:14,697 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-07-04 17:03:21,929 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-04 17:03:21,946 : __main__ : INFO : Program started
+2026-07-04 17:03:22,032 : __main__ : INFO : User Ihsan logged in
+2026-07-04 17:03:22,047 : part_manager : INFO : Loaded 1 part configurations
+2026-07-04 17:03:22,064 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-07-04 17:05:35,941 : root : INFO : LOGGING SYSTEM INITIALIZED.
+2026-07-04 17:05:35,959 : __main__ : INFO : Program started
+2026-07-04 17:05:36,001 : __main__ : INFO : User Ihsan logged in
+2026-07-04 17:05:36,025 : part_manager : INFO : Loaded 1 part configurations
+2026-07-04 17:05:36,044 : car_manager : INFO : Loaded 1 vehicles for user Ihsan
+2026-07-04 17:05:36,089 : menu : INFO : Menu system
+2026-07-04 17:05:36,092 : menu : INFO : Main menu started
+2026-07-04 17:11:55,797 : maintenance_manager : INFO : oil filter added for 1122
